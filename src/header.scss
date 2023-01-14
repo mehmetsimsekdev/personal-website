@@ -1,0 +1,24 @@
+.header {
+    @apply w-1/2 m-auto rounded-t-xl text-white text-xl bg-gradient-to-r from-primary-color to-second-primary-color;
+    
+    .menu-container {
+        @apply flex overflow-hidden rounded-t-xl;
+        
+        .menu-items {
+            @apply p-3 shadow-inner hover:bg-gradient-to-r from-pink-500 hover:to-red-500;
+        }
+        .menu-social-media-icons {
+            @apply flex items-center ml-auto w-fit;
+
+            .menu-social-media-icon {
+                @apply float-right mr-3 hover:text-pink-500;
+                
+            }
+        }
+    }
+}
+
+
+body {
+    @apply p-32;
+}
